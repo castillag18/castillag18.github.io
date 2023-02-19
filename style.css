@@ -1,0 +1,180 @@
+@import url('https://www.dafontfree.net/embed/c2FudGVsaWEtc2NyaXB0LWJvbGQtZG1vJmRhdGEvNTEvcy8yMTkzMS9TYW50RWxpYVNjcmlwdEJvbGRERU1PLm90Zg');
+
+
+body{
+    font-family: 'santelia-script-bold-dmo', sans-serif;
+    display: block;
+    min-height: 100vh;
+    
+}
+
+.form{
+    background-color: #2d2dd5;
+    margin: auto;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+    text-align: center;
+    box-shadow: 0px 5px 50px #000;
+    margin-top: 2%;
+    padding: 15px;
+   
+}
+
+/*<h2 class="form__title" src="">FORMULARIO DE REGISTRO DE CLIENTES POS</h2>*/
+.form__title{
+    font-family: 'santelia-script-bold-dmo', sans-serif;
+    font-size: 40px;
+    margin-bottom: .5em;
+    color: #fff;
+    text-shadow: 0px 5px 5px #2d2dd5;
+    text-align: center;
+    margin-top: 5%;
+    height: 100%;
+    width: 100%;
+}
+
+.form__paragraph{
+    font-weight: 300;
+}
+
+.form__input{
+    width: 100%;
+    background: none;
+    font-size: 1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color);
+    font-family: 'santelia-script-bold-dmo', sans-serif;
+    height: 2px;
+    
+}
+
+.form__input:focus,
+.form__input:not(:placeholder-shown){
+    color: #4d4646;
+}
+
+.checkbox{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px #ffffff17;
+}
+
+.form__link{
+    font-weight: 400;
+    color: black;
+    padding: 9px;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.form__container{
+    margin-top: 3em;
+    display: grid;
+    gap: 5em;
+
+}
+
+.form__group{
+    width: 60%;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    box-shadow: 2px 5px 10px #000;
+    height: 20%;
+    position: relative;
+    
+}
+
+.form__input:focus + .form__label,
+.form__input:not(:placeholder-shown) + .form__label{
+    transform: translateY(-20px) scale(.7);
+    transform-origin: left top;
+    color: #fcee21;
+    font-size: 20px;
+    
+}
+
+.form__label{
+    color: var(--color);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+    display: block;
+
+}
+
+.form__submit{
+    background: #bf0411;
+    color: #fff;
+    font-family: 'santelia-script-bold-dmo', sans-serif;
+    font-weight: 300;
+    font-size: .8em 0;
+    border: 5px;
+    border-radius: .30em;
+    padding: 9px;
+    width: 50%;
+    height: 50%;
+    box-shadow: 0px 5px 25px #e99a9a;
+
+
+}
+
+.Form__line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #2d2dd5;
+    transform: scale(0);
+    transform: left bottom;
+    transition: transform .4s;
+}
+
+.form__input:focus ~ .Form__line,
+.form__input:not(:placeholder-shown) ~ .Form__line{
+    transform: scale(1);
+}
+
+body {
+   background-image: url(fondo1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+
+.form__group1{
+    text-align: center;
+    color: #fff;
+    font-family: 'santelia-script-bold-dmo', sans-serif;
+    font-weight: 300px;
+    font-size: .8em 0;
+    border: 5px;  
+    height: 50px;
+    width: 97%;
+
+}
+
+.form__select{
+    width: 65%;
+    font-size: 15px;
+    text-align: left;
+    box-shadow: 2px 5px 10px #000;
+    border-radius: 10px;
+    
+}
