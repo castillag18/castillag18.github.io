@@ -179,3 +179,36 @@ body {
     border-radius: 10px;
     
 }
+
+.form-1{
+    background-color: white;
+    margin: 35%;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+    text-align: center;
+    margin-top: 20%;
+    padding: 20px;
+
+    
+    
+}
+
+.form__submit1{
+    background: #2d2dd5;
+    color: #fff;
+    font-family: 'santelia-script-bold-dmo', sans-serif;
+    font-weight: 300;
+    font-size: .8em 0;
+    border: 5px;
+    border-radius: .30em;
+    padding: 9px;
+    width: 50%;
+    height: 50%;
+    box-shadow: 0px 5px 25px #e99a9a;
+    overflow: hidden;
+    
+}
+
+
