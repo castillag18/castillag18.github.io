@@ -171,6 +171,15 @@ body {
 
 }
 
+body {
+   background-image: url(fondo1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+
+
 .form__select{
     width: 65%;
     font-size: 15px;
